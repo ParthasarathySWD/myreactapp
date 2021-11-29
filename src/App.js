@@ -6,10 +6,11 @@ import './App.css';
 
 function App() {
   const secret_key = "ancod@33";
+  const password = "123455";
   return (
     <div className="App">
       <Header></Header>
-      <Container></Container>
+      <Container password={password}></Container>
     </div>
   );
 }
